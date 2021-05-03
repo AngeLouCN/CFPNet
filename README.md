@@ -86,4 +86,4 @@ python eval_fps.py 1024,2048
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/sample_result.png" width="784" height="462" alt="Result"/></div>
 
 ## Comparesion
-<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="400" alt="Result"/></div>
+<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="300" alt="Result"/></div>

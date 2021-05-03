@@ -97,3 +97,15 @@ python eval_fps.py 1024,2048
 
 - Results of CamVid
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_results_camvid.png" width="500" height="200" alt="Result"/></div>
+
+## Citation
+If you think our work is helpful, please consider to cite:
+
+```
+@article{lou2021cfpnet,
+  title={CFPNet: Channel-wise Feature Pyramid for Real-Time Semantic Segmentation},
+  author={Lou, Ange and Loew, Murray},
+  journal={arXiv preprint arXiv:2103.12212},
+  year={2021}
+}
+```

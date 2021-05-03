@@ -39,6 +39,17 @@ You need to download the two dataset——CamVid and Cityscapes, and put the fil
 |    ├── cityscapes_test_list.txt
 |    └── cityscapes_val_list.txt  
 ```
+## Training
+- You can run: ```python train.py -h```to check the detail of optional arguments. In the ```train.py```, you can set the dataset, train type, epochs and batch size, etc.
+- training on Cityscapes train set
+```python train.py --dataset cityscapes```
+- training on Camvid train and val set
+```python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e-3 --batch_size 16```
+
+
+
+
+
 
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/sample_result.png" width="784" height="462" alt="Result"/></div>
 This repository contains the implementation of a new version U-Net (DC-UNet) used to segment different types of biomedical images. This is a binary classification task: the neural network predicts if each pixel in the biomedical images is either a region of interests (ROI) or not. The neural network structure is described in this 

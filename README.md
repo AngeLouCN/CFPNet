@@ -19,7 +19,7 @@ git clone https://github.com/AngeLouCN/CFPNet
 ## Dataset
 You need to download the two dataset——CamVid and Cityscapes, and put the files in the ```dataset```folder with following structure.
 ```
-|—— 
+|—— camvid
 ```
 
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/sample_result.png" width="784" height="462" alt="Result"/></div>

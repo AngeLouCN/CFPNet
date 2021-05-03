@@ -54,7 +54,7 @@ python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e
 
 | Val mIoU vs Epochs | Train loss vs Epochs |
 | :---: | :---: |
-|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/iou_vs_epochs.png" width="500" height="400" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/loss_vs_epochs.png" width="500" height="400" alt="Result"/></div>|
+|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/iou_vs_epochs.png" width="600" height="400" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/loss_vs_epochs.png" width="600" height="400" alt="Result"/></div>|
 
 ## Testing
 - After training, the checkpoint will be saved at ```checkpoint```folder, you can use ```test.py```to predict the result.
@@ -86,4 +86,4 @@ python eval_fps.py 1024,2048
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/sample_result.png" width="784" height="462" alt="Result"/></div>
 
 ## Comparesion
-
+<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="400" alt="Result"/></div>

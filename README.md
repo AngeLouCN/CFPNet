@@ -53,7 +53,7 @@ python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e
 
 | Val mIoU vs Epochs | Train loss vs Epochs |
 | :---: | :---: |
-|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/iou_vs_epochs.png" width="400" height="400" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/loss_vs_epochs.png" width="400" height="400" alt="Result"/></div>|
+|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/iou_vs_epochs.png" width="500" height="400" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/loss_vs_epochs.png" width="500" height="400" alt="Result"/></div>|
 
 
 

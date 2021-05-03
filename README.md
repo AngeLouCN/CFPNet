@@ -85,5 +85,5 @@ python eval_fps.py 1024,2048
 - Sample results: (from top to bottom is Original, CFPNet-V1, CFPNet-V2 and CFPNet-v3)
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/sample_result.png" width="784" height="462" alt="Result"/></div>
 
-## Comparesion
+## Comparsion
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>

@@ -96,4 +96,4 @@ python eval_fps.py 1024,2048
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>
 
 - Results of CamVid
-<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>
+<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_results_camvid.png" width="500" height="200" alt="Result"/></div>

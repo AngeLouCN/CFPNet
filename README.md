@@ -92,4 +92,8 @@ python eval_fps.py 1024,2048
 |<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/class_acc_param.png" width="600" height="300" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/acc_speed.png" width="600" height="300" alt="Result"/></div>|
 
 ## Comparsion
+- Results of Cityscapes
+<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>
+
+- Results of CamVid
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>

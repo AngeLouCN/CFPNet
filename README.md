@@ -88,6 +88,9 @@ python eval_fps.py 1024,2048
 | Category_acc vs size | Class_acc vs size |
 | :---: | :---: |
 |<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/category_acc_size.png" width="600" height="300" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/class_acc_size.png" width="600" height="300" alt="Result"/></div>|
+| Class_acc vs parameter| Class_acc vs speed|
+| :---: | :---: |
+|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/class_acc_param.png" width="600" height="300" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/acc_speed.png" width="600" height="300" alt="Result"/></div>|
 
 ## Comparsion
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>

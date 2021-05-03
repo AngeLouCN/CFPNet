@@ -85,5 +85,9 @@ python eval_fps.py 1024,2048
 - Sample results: (from top to bottom is Original, CFPNet-V1, CFPNet-V2 and CFPNet-v3)
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/sample_result.png" width="784" height="462" alt="Result"/></div>
 
+| Category_acc vs size | Class_acc vs size |
+| :---: | :---: |
+|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/category_acc_size.png" width="600" height="400" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/class_acc_size.png" width="600" height="400" alt="Result"/></div>|
+
 ## Comparsion
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_result.png" width="1000" height="350" alt="Result"/></div>

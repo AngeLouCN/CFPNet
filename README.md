@@ -1,6 +1,6 @@
 This project contains the Pytorch implementation for the proposed CFPNet: [**paper**] (https://arxiv.org/abs/2103.12212).
 
-<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_model.png" width="1500" height="462" alt="Result"/></div>
+<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_model.png" width="2000" height="300" alt="Result"/></div>
 
 
 

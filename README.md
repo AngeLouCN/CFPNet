@@ -55,7 +55,23 @@ python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e
 | :---: | :---: |
 |<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/iou_vs_epochs.png" width="500" height="400" alt="Result"/></div>|<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/loss_vs_epochs.png" width="500" height="400" alt="Result"/></div>|
 
+## Testing
+- After training, the checkpoint will be saved at ```checkpoint```folder, you can use ```test.py```to predict the result.
+```
+python test.py --dataset ${camvid, cityscapes} --checkpoint ${CHECKPOINT_FILE}
+```
 
+## Evalution
+- For those dataset that do not provide label on the test set (e.g. Cityscapes), you can use ```predict.py``` to save all the output images, then submit to official webpage for evaluation.
+```
+python test.py --dataset ${camvid, cityscapes} --checkpoint ${CHECKPOINT_FILE}
+```
+
+## Inference Speed
+- You can run the ```eval_fps.py``` to test the model inference speed, input the image size such as ```1024,2048```.
+```
+python eval_fps.py 1024,2048
+```
 
 
 

@@ -5,16 +5,16 @@ This project contains the Pytorch implementation for the proposed CFPNet: [**pap
 Real-time semantic segmentation is playing a more important role in computer vision, due to the growing demand for mobile devices and autonomous driving. Therefore, it is very important to achieve a good trade-off among performance, model size and inference speed. In this paper, we propose a Channel-wise Feature Pyramid (CFP) module to balance those factors. Based on the CFP module, we built CFPNet for real-time semantic segmentation which applied a series of dilated convolution channels to extract effective features. Experiments on Cityscapes and CamVid datasets show that the proposed CFPNet achieves an effective combination of those factors. For the Cityscapes test dataset, CFPNet achievse 70.1% class-wise mIoU with only 0.55 million parameters and 2.5 MB memory. The inference speed can reach 30 FPS on a single RTX 2080Ti GPU (GPU usage 60%) with a 1024×2048-pixel image.
 
 ## Installation
--Enviroment: Python 3.6; Pytorch 1.0; CUDA 9.0; cuDNN V7
--Install some packages:
+- Enviroment: Python 3.6; Pytorch 1.0; CUDA 9.0; cuDNN V7
+- Install some packages:
 ```
 pip install opencv-python pillow numpy matplotlib
 ```
--Clone this repository
+- Clone this repository
 ```
 git clone https://github.com/AngeLouCN/CFPNet
 ```
--One GPU with 11GB memory is needed
+- One GPU with 11GB memory is needed
 
 ## Dataset
 You need to download the two dataset——CamVid and Cityscapes, and put the files in the ```dataset```folder with following structure.
@@ -41,9 +41,9 @@ You need to download the two dataset——CamVid and Cityscapes, and put the fil
 ```
 ## Training
 - You can run: ```python train.py -h```to check the detail of optional arguments. In the ```train.py```, you can set the dataset, train type, epochs and batch size, etc.
-- training on Cityscapes train set
+- training on Cityscapes train set.
 ```python train.py --dataset cityscapes```
-- training on Camvid train and val set
+- training on Camvid train and val set.
 ```python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e-3 --batch_size 16```
 
 

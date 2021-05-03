@@ -76,7 +76,7 @@ python eval_fps.py 1024,2048
 - Results for CFPNet-V1, CFPNet-V2 and CFPNet-v3:
 
 | Dataset | Model | mIoU |
-| :---: | :---: |
+| :---: | :---: | :---: |
 | Cityscapes | CFPNet-V1 | 60.4% |
 | Cityscapes | CFPNet-V2 | 66.5% |
 | Cityscapes | CFPNet-V3 | 70.1% |

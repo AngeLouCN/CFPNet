@@ -2,7 +2,7 @@
 This project contains the Pytorch implementation for the proposed CFPNet: [**paper**] (https://arxiv.org/abs/2103.12212).
 
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_model.png" width="2000" height="250" alt="Result"/></div>
-<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/cfp module.png" width="500" height="1000" alt="Result"/></div>
+<div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/cfp module.png" width="500" height="800" alt="Result"/></div>
 Real-time semantic segmentation is playing a more important role in computer vision, due to the growing demand for mobile devices and autonomous driving. Therefore, it is very important to achieve a good trade-off among performance, model size and inference speed. In this paper, we propose a Channel-wise Feature Pyramid (CFP) module to balance those factors. Based on the CFP module, we built CFPNet for real-time semantic segmentation which applied a series of dilated convolution channels to extract effective features. Experiments on Cityscapes and CamVid datasets show that the proposed CFPNet achieves an effective combination of those factors. For the Cityscapes test dataset, CFPNet achievse 70.1% class-wise mIoU with only 0.55 million parameters and 2.5 MB memory. The inference speed can reach 30 FPS on a single RTX 2080Ti GPU (GPU usage 60%) with a 1024×2048-pixel image.
 
 ## Installation

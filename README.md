@@ -1,6 +1,5 @@
 # CFPNet: Channel-Wise Feature Pyramid for Real-Time Semantic Segmentation
-This project contains the Pytorch implementation for the proposed CFPNet:   
-[**paper**](https://arxiv.org/ftp/arxiv/papers/2103/2103.12212.pdf)
+This project contains the Pytorch implementation for the proposed CFPNet: [**paper**](https://arxiv.org/ftp/arxiv/papers/2103/2103.12212.pdf)
 
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/seg_model.png" width="2000" height="250" alt="Result"/></div>
 <div align=center><img src="https://github.com/AngeLouCN/CFPNet/blob/main/figures/cfp module.png" width="800" height="300" alt="Result"/></div>

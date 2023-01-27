@@ -102,10 +102,12 @@ python eval_fps.py 1024,2048
 If you think our work is helpful, please consider to cite:
 
 ```
-@article{lou2021cfpnet,
-  title={CFPNet: Channel-wise Feature Pyramid for Real-Time Semantic Segmentation},
+@inproceedings{lou2021cfpnet,
+  title={Cfpnet: channel-wise feature pyramid for real-time semantic segmentation},
   author={Lou, Ange and Loew, Murray},
-  journal={arXiv preprint arXiv:2103.12212},
-  year={2021}
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  pages={1894--1898},
+  year={2021},
+  organization={IEEE}
 }
 ```
